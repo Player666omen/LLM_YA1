@@ -5,7 +5,7 @@ import dotenv
 env = dotenv.dotenv_values(".env")
 
 db = SQLAlchemy()
-
+#twat
 # Сохранение истории в БД
 class ChatHistory(db.Model):
     id = db.Column(db.Integer, primary_key=True)
